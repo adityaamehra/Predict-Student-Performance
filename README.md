@@ -26,9 +26,7 @@ The model uses **multiple linear regression** to learn the relationship between 
 
 ### 2. Model: Multiple Linear Regression
 - A multiple linear regression model is used to find the optimal coefficients (`theta`) for the relationship:
-  \[
-  \text{Grades} = \theta_0 + \theta_1 \times \text{Socioeconomic Score} + \theta_2 \times \text{Study Hours} + \theta_3 \times \text{Sleep Hours} + \theta_4 \times \text{Attendance}
-  \]
+  $\text{Grades} = \theta_0 + \theta_1 \times \text{Socioeconomic Score} + \theta_2 \times \text{Study Hours} + \theta_3 \times \text{Sleep Hours} + \theta_4 \times \text{Attendance}$
   - **Training**: The model is trained using gradient descent, minimizing the cost function (Mean Squared Error).
   
 ### 3. Prediction
